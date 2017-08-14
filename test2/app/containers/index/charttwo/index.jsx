@@ -1,13 +1,13 @@
-require("./index.less");
+import style from './index.css';
 import Td from "../../../components/chart2tr";
 class Charttwo extends React.Component{
     render(){
         return(
-            <div className="charttwo">
+            <div className={style.charttwo}>
                 <header>
                     Recent Trades (XBTUSD)
                 </header>
-                <div className="table2">
+                <div className={style.table2}>
                     <table>
                         <tbody>
                         {

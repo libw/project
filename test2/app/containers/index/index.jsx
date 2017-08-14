@@ -1,4 +1,5 @@
-import "./index.less";
+
+import style from './index.css';
 import Chartone from "./chartone";
 import Charttwo from "./charttwo";
 import $ from "./jquery";
@@ -12,7 +13,7 @@ class Index extends React.Component{
     render(){
         // console.log(this.state.data);
         return (
-            <div className="content">
+            <div className={style.content}>
                 <Chartone data={this.state.data}/>
                 <Charttwo data={this.state.data[2]}/>
 

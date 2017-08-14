@@ -1,0 +1,35 @@
+
+.charttwo{
+    width: 390px;
+    height: 406px;
+
+    box-shadow: 2px 2px 2px -1px black;
+
+
+}
+header{
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    background-color: #eee;
+    border-bottom: 1px solid #bbb;
+
+}
+
+.table2{
+    width: 390px;
+    height: 370px;
+    overflow-y: auto;
+
+}
+.table2 table{
+    width: 100%;
+    margin-bottom: 0;
+
+}
+.table2 tbody{
+
+    width: 100%;
+    height: 792px;
+
+}

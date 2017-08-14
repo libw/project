@@ -1,4 +1,4 @@
-require("./index.less");
+import style from './index.css';
 
 import Td from "../../../components/chart1tr";
 class Chartone extends React.Component{
@@ -6,11 +6,11 @@ class Chartone extends React.Component{
         console.log(this.props.data[2])
         return(
 
-            <div className="chartone">
+            <div className={style.chartone}>
                 <header>
                     委托列表 (XBTUSD)
                 </header>
-                <table className="table">
+                <table className={style.table}>
                     <thead>
                         <tr>
                             <th>价格</th>
