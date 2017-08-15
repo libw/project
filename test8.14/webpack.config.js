@@ -25,10 +25,7 @@ if(isDebug === 'true') {
 module.exports = {
     context: path.join(__dirname, 'src'),
     entry:  {
-        app:"./app.js",
-        vendors: [
-          'jquery'
-        ]
+        app:"./index.js"
     },
     output: {
         path: path.resolve(__dirname, 'output'),
@@ -65,7 +62,7 @@ module.exports = {
                 minifyJS: true,
                 removeComments: true,
                 minifyCSS: true
-            }
+            },
         }),
         new webpack.optimize.UglifyJsPlugin({
             compress: {

@@ -1,0 +1,24 @@
+@import "../../static/css/config/common.css";
+
+.mt4{
+    width: 100%;
+    height: 600px;
+
+    background-image: url("/static/images/mt4-bg.png");
+    background-color: #1b6d85;
+}
+.mt4bg{
+    width: 240px;
+    height: 240px;
+}
+.mt4bg>img{
+    width: 100%;
+    height: 100%;
+}
+.mt4title{
+
+}
+.downloadlist{
+    width: 220px;
+    height: 240px;
+}
