@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import {Router,Route,IndexRoute,hashHistory} from 'react-router';
 import Superiority from "./containers/superiority/index"
 import Mtdownload from "./containers/MT4/index"
+import Partner from "./containers/partner/index"
 import style from  "./index.css"
 
 class App extends React.Component{
@@ -11,6 +12,7 @@ class App extends React.Component{
 			<div className={style.content}>
 				<Superiority/>
 				<Mtdownload/>
+				<Partner/>
 			</div>
 		)
 	}
