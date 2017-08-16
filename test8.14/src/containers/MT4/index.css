@@ -4,7 +4,7 @@
     width: 100%;
     height: 600px;
     padding-top: 74px;
-    /*background-image: url("/static/images/mt4-bg.png");*/
+    background-image: url("../partner/partnerport/images/mt4-bg.png");
     background-color: #1b6d85;
 }
 .mt4download{
@@ -18,6 +18,7 @@
     height: 240px;
     float: left;
     background-color: yellow;
+    background-image: url("../partner/partnerport/images/mt4.png");
 }
 .mt4bg>img{
     width: 100%;
@@ -38,3 +39,22 @@
 .downloadlist:last-child{
     margin-bottom: 0;
 }
+
+@media all and (max-width: 690px){
+    .mt4download{
+        width: 100%;
+    }
+}
+/*@media all and (max-width: 460px){*/
+    /*.mt4download{*/
+        /*width: 100%;*/
+    /*}*/
+    /*.mt4bg{*/
+        /*width: 100%;*/
+        /*clear: both;*/
+    /*}*/
+    /*.downloadlist{*/
+        /*width: 100%;*/
+        /*clear: both;*/
+    /*}*/
+/*}*/

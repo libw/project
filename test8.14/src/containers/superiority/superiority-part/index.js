@@ -7,14 +7,17 @@ class Support extends React.Component{
         return(
             <a href="javascript:void (0);" className={style.superiorityport}>
                 <div className={style.suppicon}>
-                    <i className="fa fa-ravelry fa-5x"></i>
+                    <i className={this.props.data.iconclass}></i>
                 </div>
                 <div className={style.suppfont}>
                     <div className={style.suppftitle}>
-                        资质合规
+                        {this.props.data.title}
                     </div>
                     <div className={style.suppfcontent}>
-                        香港证监会认可持牌发团<br/>持有第1/2/4/9类拍照
+                        {this.props.data.contentt}
+                        <span>
+                             {this.props.data.contentb}
+                        </span>
                     </div>
                 </div>
             </a>

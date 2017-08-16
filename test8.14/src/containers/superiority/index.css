@@ -31,4 +31,16 @@
     clear: both;
 }
 
+@media all  and (max-width: 1200px) {
+    .supcontent{
+        width: 100%;
+    }
+    .linkus{
+        margin-top: 25px;
+        margin-right: 65px;
+    }
+}
+
+
+
 

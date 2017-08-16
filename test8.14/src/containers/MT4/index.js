@@ -1,9 +1,29 @@
 import React from 'react';
 import style from "./index.css";
-import Downbutton from "../../components/download-button/index"
+import Downbutton from "./download-button/index";
+
 
 
 class Mtdownload extends React.Component{
+    constructor(props){
+        super(props);
+        this.state = {
+            button:[
+                {
+                    "iconclass":"fa fa-windows",
+                    "download":"windows下载"
+                },
+                {
+                    "iconclass":"fa fa-apple",
+                    "download":"IOS下载"
+                },
+                {
+                    "iconclass":"fa fa-android",
+                    "download":"Android下载"
+                }
+                ]
+        }
+    }
     render(){
         return(
             <div className={style.mt4}>
@@ -12,12 +32,13 @@ class Mtdownload extends React.Component{
                 </div>
                 <div className={style.mt4download}>
                     <a href="javascript:void (0);" className={style.mt4bg}>
-                        <img src="" alt=""/>
                     </a>
                     <div className={style.downloadlist}>
-                        <Downbutton/>
-                        <Downbutton/>
-                        <Downbutton/>
+                        {
+                            this.state.button.map((v,i)=>{
+                                return <Downbutton  key={i}  data={v}/>
+                            })
+                        }
                     </div>
                 </div>
             </div>

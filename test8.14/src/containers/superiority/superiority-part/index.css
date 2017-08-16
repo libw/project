@@ -1,4 +1,4 @@
-@import "../../static/css/config/common.css";
+@import "../../../static/css/config/common.css";
 
 .superiorityport{
     width: 360px;
@@ -6,6 +6,7 @@
     float: left;
     margin:0 20px;
 }
+
 .superiorityport:hover{
     box-shadow: 0 0 5px 3px #f8f8ff;
 }
@@ -14,6 +15,7 @@
     color:#5a6ffe;
     width: 100%;
     height: 200px;
+    line-height: 200px;
     text-align: center;
 }
 .suppicon>i{
@@ -26,13 +28,26 @@
 }
 .suppftitle{
     font-size: 32px;
-    color:#010101;
+    color:#3b3d40;
+
 }
 .suppfcontent{
-
-    width: 250px;
+    width: 260px;
     margin: 0 auto;
     margin-top: 25px;
     font-size: 18px;
-    color:#cccccc;
+    color:#aaa;
+}
+.suppfcontent>span{
+    display: block;
+}
+
+@media all and (max-width: 1200px){
+    .superiorityport{
+        width: 30%;
+        margin:0 1.5%;
+    }
+    .suppfcontent{
+        width: 100%;
+    }
 }
