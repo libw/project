@@ -1,14 +1,12 @@
-@import "../../../static/css/config/common.css";
 
 .superiorityport{
     width: 360px;
     height: 620px;
     float: left;
-    margin:0 20px;
 }
 
 .superiorityport:hover{
-    box-shadow: 0 0 5px 3px #f8f8ff;
+    box-shadow: 0 0 5px 5px rgba(82,98,255,0.1);
 }
 .suppicon{
     margin-top: 90px;
@@ -17,17 +15,20 @@
     height: 200px;
     line-height: 200px;
     text-align: center;
+    padding-top: 20px;
 }
-.suppicon>i{
+.suppicon>img{
     margin: 0 auto;
-    font-size: 100px;
+    width: 112px;
+    height: 112px;
+    display: block;
 }
 .suppfont{
     margin-top: 27px;
     text-align: center;
 }
 .suppftitle{
-    font-size: 32px;
+    font-size: 36px;
     color:#3b3d40;
 
 }
@@ -42,10 +43,10 @@
     display: block;
 }
 
-@media all and (max-width: 1200px){
+@media all and (max-width: 1080px){
     .superiorityport{
-        width: 30%;
-        margin:0 1.5%;
+        width: 33.3%;
+
     }
     .suppfcontent{
         width: 100%;

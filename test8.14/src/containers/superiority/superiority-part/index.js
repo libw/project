@@ -7,7 +7,7 @@ class Support extends React.Component{
         return(
             <a href="javascript:void (0);" className={style.superiorityport}>
                 <div className={style.suppicon}>
-                    <i className={this.props.data.iconclass}></i>
+                    <img src={require(`./images/${this.props.data.iconclass}.png`)} alt=""/>
                 </div>
                 <div className={style.suppfont}>
                     <div className={style.suppftitle}>

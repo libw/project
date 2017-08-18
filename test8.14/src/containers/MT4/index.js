@@ -15,7 +15,7 @@ class Mtdownload extends React.Component{
                 },
                 {
                     "iconclass":"fa fa-apple",
-                    "download":"IOS下载"
+                    "download":"iOS下载"
                 },
                 {
                     "iconclass":"fa fa-android",

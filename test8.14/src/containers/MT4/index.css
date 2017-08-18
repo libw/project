@@ -1,11 +1,12 @@
-@import "../../static/css/config/common.css";
+
 
 .mt4{
     width: 100%;
     height: 600px;
     padding-top: 74px;
     background-image: url("../partner/partnerport/images/mt4-bg.png");
-    background-color: #1b6d85;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .mt4download{
     width: 690px;
@@ -17,8 +18,8 @@
     width: 240px;
     height: 240px;
     float: left;
-    background-color: yellow;
     background-image: url("../partner/partnerport/images/mt4.png");
+
 }
 .mt4bg>img{
     width: 100%;
@@ -45,16 +46,3 @@
         width: 100%;
     }
 }
-/*@media all and (max-width: 460px){*/
-    /*.mt4download{*/
-        /*width: 100%;*/
-    /*}*/
-    /*.mt4bg{*/
-        /*width: 100%;*/
-        /*clear: both;*/
-    /*}*/
-    /*.downloadlist{*/
-        /*width: 100%;*/
-        /*clear: both;*/
-    /*}*/
-/*}*/

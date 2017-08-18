@@ -8,19 +8,19 @@ class Superiority extends React.Component{
         this.state = {
             superiority:[
                 {
-                    "iconclass":"fa fa-superpowers",
+                    "iconclass":"book",
                     "title":"资质合规",
                     "contentt":"香港证监会认可持牌发团",
                     "contentb":"持有第1/2/4/9类拍照"
                 },
                 {
-                    "iconclass":"fa fa-check-square-o",
+                    "iconclass":"right",
                     "title":"实力雄厚",
                     "contentt":"位居香港券商top5%行列",
                     "contentb":"腾讯、经纬、红衫连续重金投资"
                 },
                 {
-                    "iconclass":"fa fa-rmb ",
+                    "iconclass":"money",
                     "title":"佣金实惠",
                     "contentt":"港股佣金最低至0",
                     "contentb":"美股佣金低至$0.01/股"

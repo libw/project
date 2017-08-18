@@ -1,4 +1,4 @@
-@import "../../static/css/config/common.css";
+
 
 .superiority{
     width: 100%;
@@ -17,7 +17,7 @@
     margin-right: 130px;
     width: 200px;
     height: 42px;
-    background-color: #4781fe;
+    background-color: #5262ff;
     line-height: 42px;
     text-align: center;
     font-size: 18px;
@@ -25,18 +25,18 @@
 }
 .supcontent{
 
-    width: 1200px;
+    width: 1080px;
     margin: 0 auto;
     margin-top: 52px;
     clear: both;
 }
 
-@media all  and (max-width: 1200px) {
+@media all  and (max-width: 1080px) {
     .supcontent{
         width: 100%;
     }
     .linkus{
-        margin-top: 25px;
+        margin-top: 40px;
         margin-right: 65px;
     }
 }
