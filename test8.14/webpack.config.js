@@ -82,5 +82,8 @@ module.exports = {
         new webpack.DefinePlugin({
             __DEV__: isDebug
         })
-    ]
+    ],
+    devServer: {
+        disableHostCheck: true
+    }
 };

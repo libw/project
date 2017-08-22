@@ -15,6 +15,8 @@ class FormItem extends React.Component{
     }
     //失去焦点
     onbulr (){
+        console.log(this.props.rex);
+        console.log(("input[name='"+this.props.nn+"']").value)
         if((new RegExp(this.props.rex)).test(document.querySelector("input[name='"+this.props.nn+"']").value)){
             document.querySelector("input[name='"+this.props.nn+"']+span").innerHTML="";
         }else {
